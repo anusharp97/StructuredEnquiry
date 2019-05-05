@@ -1,0 +1,28 @@
+Problem Statement:
+Database fields validation, explicitly on the
+backend.
+Form validation is important especially before
+pushing the data into database. Your task is the
+following:
+1) Create a frontend UI where the user inputs his
+data to be pushed in a database, the database
+should be have the following fields:
+? userID, number
+? userName, string
+? userPhone, number
+? userEmail, string
+? dateJoined, datetime
+? lastUpdated, datetime
+2) Push this data into a database and make sure all
+the fields are validated.
+3) The validation has to happen explicitly on the
+backend (node) not on the frontend (angular)
+Give an option in frontend to query for specific user
+based on user id and get all the details.
+
+**************************************************************
+Team Deatils:
+Abdul gafur Badebade	01FE16BCS002  
+Abhishek Mudaraddi	01FE16BCS006  
+Akshay Hegde		01FE16BCS021  
+Anusha Prabhu		01FE16BCS037 
