@@ -7,12 +7,12 @@ following:
 1) Create a frontend UI where the user inputs his
 data to be pushed in a database, the database
 should be have the following fields:
-? userID, number
-? userName, string
-? userPhone, number
-? userEmail, string
-? dateJoined, datetime
-? lastUpdated, datetime
+userID, number
+userName, string
+userPhone, number
+userEmail, string
+dateJoined, datetime
+lastUpdated, datetime
 2) Push this data into a database and make sure all
 the fields are validated.
 3) The validation has to happen explicitly on the
