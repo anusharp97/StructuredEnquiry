@@ -1,0 +1,27 @@
+<div>
+          <mat-toolbar color="primary" >
+              <span  class="title-center">User Details</span>
+            </mat-toolbar>
+    <mat-divider></mat-divider>
+    <br>
+    <div class="form-style-6">
+      <h1>Details</h1>
+      <mat-label><b>Name</b> </mat-label><input type=text [(ngModel)]="name" disabled>
+      <br> <br>
+      <mat-label> <b>Contact</b> </mat-label>
+        <input type= text [(ngModel)]="contact" disabled>
+  
+        <br> <br>
+        <mat-label><b>Email</b></mat-label><input type=email [(ngModel)]="email" disabled>
+  
+          <br> <br>
+              <mat-label> <b> Date Joined</b> </mat-label><input type=date [(ngModel)]="datejoined" disabled>
+       
+            <br> <br>
+            <mat-label> <b>Date Updated </b> </mat-label> <input type=date [(ngModel)]="dateupdated" disabled> <br>
+              <br> <br>
+              <br><br>
+              <input type=submit routerLink='/home' value=Home>
+              <br><br>
+            </div>
+ 

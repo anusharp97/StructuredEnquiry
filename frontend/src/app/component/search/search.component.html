@@ -1,0 +1,16 @@
+<form (submit) = "searchUser()">
+        <mat-toolbar color="primary" >
+                <span  class="title-center">Search
+                <mat-icon matSuffix style="font-size: 1.2em">search</mat-icon></span> 
+              </mat-toolbar>
+
+              <br><br>
+                      <form  class="form-style-9" (submit) = "searchUser()">
+                              <ul><li>
+         <mat-label> <b> ID </b> </mat-label>   <input type="number" id="b1" ngModel placeholder="5" name="id" [(ngModel)]="id"  class="field-style field-full align-none">
+</li><br> <br>
+    <button mat-raised-button color="accent" class="field-style field-full align-none">Search<mat-icon>search</mat-icon></button>
+</ul>
+</form>
+</form>
+

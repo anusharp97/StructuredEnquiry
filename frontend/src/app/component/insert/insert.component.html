@@ -1,0 +1,24 @@
+<div class=insert>
+            <mat-toolbar color="primary" >
+                <span  class="title-center"> Add New User</span>
+              </mat-toolbar>
+    <br>
+    <form [formGroup]="insertForm" class="form-style-9">
+      <ul>
+
+      <li>
+          <input  type ="text" placeholder ="Name" formControlName="name" #name class="field-style field-full align-none">
+       
+       </li> 
+       <li>
+          <input type="text" placeholder ="Contact" formControlName="contact" #contact class="field-style field-full align-none">
+    </li>
+       <li>
+          <input type=text placeholder ="Email" formControlName="email" #email class="field-style field-full align-none">
+      </li>
+        <br><br>
+        <button mat-raised-button color="primary" routerLink="/home">Back<mat-icon>home</mat-icon></button>&nbsp;
+        <button type="submit" (click)="addUser( name.value, contact.value, email.value)" [disabled]="insertForm.pristine || insertForm.invalid" mat-raised-button color="primary">Save<mat-icon>save</mat-icon></button>
+      </ul>
+      </form>
+  </div>
